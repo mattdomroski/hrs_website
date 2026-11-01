@@ -1,4 +1,5 @@
-from flask import Flask, redirect, url_for
+from flask import Flask, redirect, url_for, render_template
+import settings
 
 app = Flask(__name__)
 
@@ -8,27 +9,31 @@ def index():
 
 @app.route('/home')
 def home():
-    return 'This is the home page'
+    return render_template('home.html')
 
 @app.route('/about')
 def about():
-    return 'This is the about page'
+    return render_template('about.html')
 
 @app.route('/contact')
 def contact():
-    return 'This is the contact page'
+    return render_template('contact.html')
 
 @app.route('/locations')
 def locations():
-    return 'This is the locations page'
+    return render_template('locations.html')
+
+@app.route('/inventory')
+def inventory():
+    return render_template('inventory.html')
 
 @app.route('/receipts')
 def receipts():
-    return 'This is the receipts page'
+    return render_template('receipts.html')
 
 @app.route('/login')
 def login():
-    return 'This is the staff login page (will redirect to staff portal)'
+    return redirect(settings.STAFF_PORTAL_URL)
 
 if __name__ == '__main__':
     app.run(debug=True, port=5001)

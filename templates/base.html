@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Home Renovation Solutions{% endblock %}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar md:navbar-expand bg-1">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{{ url_for('home') }}">Home Renovation Solutions</a>
+    <ul class="nav navbar-nav me-auto">
+      <li class="nav-item">
+        <a class="nav-link {% if request.endpoint == 'home' %}active{% endif %}" href="{{ url_for('home') }}">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link {% if request.endpoint == 'about' %}active{% endif %}" href="{{ url_for('about') }}">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link {% if request.endpoint == 'contact' %}active{% endif %}" href="{{ url_for('contact') }}">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link {% if request.endpoint == 'locations' %}active{% endif %}" href="{{ url_for('locations') }}">Locations</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link {% if request.endpoint == 'inventory' %}active{% endif %}" href="{{ url_for('inventory') }}">Inventory</a>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link {% if request.endpoint in ['receipts'] %}active{% endif %}" type="button" data-bs-toggle="menu" aria-expanded="false">
+          Customers
+        </button>
+        <div class="menu">
+          <a class="menu-item" href="{{ url_for('receipts') }}">View Receipt</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link {% if request.endpoint in ['login'] %}active{% endif %}" type="button" data-bs-toggle="menu" aria-expanded="false">
+          Employees
+        </button>
+        <div class="menu">
+          <a class="menu-item" href="{{ url_for('login') }}">Staff Portal</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>

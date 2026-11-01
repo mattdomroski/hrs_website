@@ -1,0 +1,5 @@
+.navbar-nav .nav-link.active {
+    color: #0d6efd !important;
+    font-weight: 600;
+    padding-bottom: 4px;
+}

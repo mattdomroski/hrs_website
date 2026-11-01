@@ -1,0 +1,1 @@
+STAFF_PORTAL_URL = 'localhost:5000'

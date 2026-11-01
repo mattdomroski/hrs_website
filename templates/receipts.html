@@ -1,5 +1,27 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Welcome to the receipts page</h1>
+    <br>
+    <br>
+    <h5>Enter your order/job id and email to view your receipt.</h5>
+    <form>
+      <label for="id_type" class="form-label">Type</label>
+      <select name="id_type" id="id_type" class="form-control {% if errors['id_type'] %}is-invalid{% endif %}">
+        <option value="">(Select an option)</option>
+        <option value="order" {% if args['id_type'] == 'order' %}selected{% endif %}>Order (products)</option>
+        <option value="job">Job (services)</option>
+      </select>
+      <div id="id_type_feedback" class="invalid-feedback">{{errors['id_type']}}</div>
+      <br>
+      <label for="id" class="form-label">Order/job id</label>
+      <input type="number" name="id" id="id" required min="0" value="{{ args['id'] }}" class="form-control {% if errors['id'] %}is-invalid{% endif %}">
+      <div id="id_feedback" class="invalid-feedback">{{errors['id']}}</div>
+      <br>
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" name="email" id="email" value="{{ args['email'] }}" required class="form-control {% if errors['email'] %}is-invalid{% endif %}">
+      <div id="email_feedback" class="invalid-feedback">{{errors['email']}}</div>
+      <br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
 {% endblock %}

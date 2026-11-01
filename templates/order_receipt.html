@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br>
+<button onclick="window.print()" class="btn btn-primary no-print">Print</button>
+<br>
+<br>
+<h5>Order Details</h5>
+<table class="table">
+    <tbody>
+    {% for label, value in order.items() %}
+        <tr>
+            <td>{{label}}</td>
+            <td>{{value}}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<br>
+<h5>Line Items</h5>
+<table class="table">
+    <thead>
+        <tr class="theme-inverse">
+            {% for header in item_headers %}
+                <td>{{header}}</td>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in order_items %}
+        <tr>
+            {% for header in item_headers %}
+                <td>{{item[header]}}</td>
+            {% endfor %}
+        </tr>
+        {% endfor%}
+    </tbody>
+</table>
+<br>
+<h5>Payments</h5>
+<table class="table">
+    <thead>
+        <tr class="theme-inverse">
+            {% for header in payment_headers %}
+                <td>{{header}}</td>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for payment in payments %}
+        <tr>
+            {% for header in payment_headers %}
+                <td>{{payment[header]}}</td>
+            {% endfor %}
+        </tr>
+        {% endfor%}
+    </tbody>
+</table>
+
+{% endblock %}

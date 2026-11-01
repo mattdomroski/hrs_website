@@ -3,3 +3,9 @@
     font-weight: 600;
     padding-bottom: 4px;
 }
+
+@media print {
+    .no-print {
+        display: none !important;
+    }
+}

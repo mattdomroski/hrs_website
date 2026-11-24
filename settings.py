@@ -2,7 +2,6 @@ import os
 
 from dotenv import find_dotenv, dotenv_values
 
-STAFF_PORTAL_URL = 'localhost:5000'
 
 try:
     dotenv_path = find_dotenv(raise_error_if_not_found=True)
@@ -23,3 +22,5 @@ DB_USER = get_env_value('DB_USER')
 DB_PASSWORD = get_env_value('DB_PASSWORD')
 DB_NAME = get_env_value('DB_NAME')
 DB_PORT = int(get_env_value('DB_PORT'))
+GOOGLE_MAPS_API_KEY = get_env_value('GOOGLE_MAPS_API_KEY')
+STAFF_PORTAL_URL = get_env_value('STAFF_PORTAL_URL')

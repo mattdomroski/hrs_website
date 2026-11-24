@@ -1,5 +1,21 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Welcome to the about page</h1>
+    <h1 class="text-center my-1">About Us</h1>
+
+
+
+    <div class="container my-4">
+        <div class="row justify-content-center">
+            <div class="col-10">
+
+                <p>Home Renovation solutions was founded in 2007. We serve the greater Phoenix and Tuscon areas, providing expert consultation and professional remodeling services. We offer full-service kitchen and bathroom renovation, including flooring, cabinets, countertops, plumbing, appliances, and lighting. Check our locations page to find the nearest location, or use the contact form to send us a message. We have also compiled a list of frequently asked questions and answers below.</p>
+
+                <h2 class="text-center">Frequently Asked Questions</h2>
+                <iframe src="{{ url_for('static', filename='assets/HRS-FAQs.pdf') }}" width="100%" height="800px"></iframe>
+            </div>
+        </div>
+    </div>
+
+
 {% endblock %}

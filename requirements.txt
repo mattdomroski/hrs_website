@@ -2,3 +2,5 @@ Flask
 PyMySQL
 python-dotenv
 gunicorn
+
+requests

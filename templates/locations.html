@@ -1,5 +1,83 @@
 {% extends "base.html" %}
-
+{% block head %}
+<!-- The callback parameter is required, so we use console.debug as a noop -->
+    <script async src="https://maps.googleapis.com/maps/api/js?key={{ google_maps_api_key }}&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
+    <style>
+      gmp-map {
+        height: 600px;
+      }
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+{% endblock %}
 {% block content %}
-    <h1>Welcome to the locations page</h1>
+<h1 class="text-center my-1">Find a Location</h1>
+<div class="container">
+    <div class="row justify-content-center my-4">
+        <div class="col-10">
+            <form>
+                <label for="zip" class="form-label">ZIP Code</label>
+                <input type="number" name="zip" id="zip" required min="0" value="{{zip}}" class="form-control {% if errors['zip'] %}is-invalid{% endif %}">
+                <div id="zip_feedback" class="invalid-feedback">{{errors['zip']}}</div>
+            </form>
+        </div>
+    </div>
+    {% if customer_location %}
+    <div class="row justify-content-center my-4">
+        <div class="col-10">
+            <span>{{customer_location.formatted_address}}</span>
+        </div>
+    </div>
+    {% endif %}
+    <div class="row justify-content-center my-4">
+        <div class="col-10">
+            <gmp-map center="{{map_center.lat}},{{map_center.lng}}" zoom="{{map_zoom}}" map-id="DEMO_MAP_ID">
+                {% for location in locations %}
+                <gmp-advanced-marker position="{{location.location.lat}},{{location.location.lng}}" title="{{location.LocationName}}"></gmp-advanced-marker>
+                {% endfor %}
+                {% if customer_location %}
+                <gmp-advanced-marker position="{{customer_location.geometry.location.lat}},{{customer_location.geometry.location.lng}}" title="My Location">
+                    <gmp-pin background="#0F9D58" border-color="#004D40" glyph-color="#FFFFFF"></gmp-pin>
+                </gmp-advanced-marker>
+                {% endif %}
+            </gmp-map>
+        </div>
+    </div>
+    <div class="row justify-content-center my-4">
+        <div class="col-10">
+            {% for location in locations %}
+            <div class="card my-1">
+                {% if location.get('closest', False) %}
+                    <div class="card-header">
+                        Closest
+                    </div>
+                {% endif %}
+                <div class="card-body">
+                    <h5 class="card-title">{{ location.LocationName }}</h5>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            {% if customer_location %}
+                            <span class="card-text">{{location.distance | int}} mi | </span>
+                            {% endif %}
+                            <span class="card-text">{{location.City}}, {{location.State}} | </span>
+                            <span class="card-text"><a href="{{url_for('contact', location=location.LocationID)}}">Contact</a> | </span>
+                            <span class="card-text"><a href="{{url_for('list_products', location=location.LocationID)}}">View Inventory</a></span>
+                        </div>
+                        <div>
+                            {% for service in location.services %}
+                            <span class="badge bg-primary">{{service}}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
 {% endblock %}

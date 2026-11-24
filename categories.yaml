@@ -1,0 +1,12 @@
+categories:
+  - name: Appliances
+    slug: appliances
+  - name: Cabinets
+    slug: cabinets
+  - name: Sinks & Faucets
+    slug: sinks-faucets
+  - name: Lighting
+    slug: lighting
+  - name: Countertops & Tile
+    slug: countertops-tile
+

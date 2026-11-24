@@ -1,0 +1,373 @@
+manufacturers:
+  -
+    category: Appliances
+    name: Asko
+    website: https://us.asko.com/
+    logo_url: https://upload.wikimedia.org/wikipedia/commons/c/c8/Asko-Cylinda-logo.png
+  -
+    category: Appliances
+    name: Faber
+    website: https://faberonline.com/
+    logo_url: https://faberonline.com/cdn/shop/files/Faber_logo_darkforest_P3435C.png
+  -
+    category: Appliances
+    name: Scotsman
+    website: https://scotsmanhomeice.com/
+    logo_url: https://scotsmanhomeice.com/wp-content/uploads/logo-homepage-200-x-200.png
+  -
+    category: Appliances
+    name: Best
+    website: https://bestrangehoods.com/
+    logo_url: https://bestrangehoods.com/api/media/file/logo_white%202-1-05afbe43-b22f-420d-9b1f-119b3c839b0b.svg
+    background: '#AAAAAA'
+  -
+    category: Appliances
+    name: Fisher & Paykel
+    website: https://www.fisherpaykel.com/us/
+    logo_url: https://upload.wikimedia.org/wikipedia/commons/0/00/Fisherpaykel-logo.png
+  -
+    category: Appliances
+    name: Sub Zero
+    website: https://www.subzero-wolf.com/
+    logo_url: https://upload.wikimedia.org/wikipedia/en/2/29/Sub-Zero_%28logo%29.svg
+  -
+    category: Appliances
+    name: Bosch
+    website: https://www.bosch-home.com/us/en
+    logo_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Bosch-logo.svg/1920px-Bosch-logo.svg.png
+  -
+    category: Appliances
+    name: Gaggenau
+    website: https://www.gaggenau.com/
+    logo_url: https://www.gaggenau.com/store/medias/sys_master/root/h8d/h24/12965871976478/GG-logo-black-RGB.png
+  -
+    category: Appliances
+    name: Thermador
+    website: https://www.thermador.com/us/en
+    logo_url: https://www.thermador.com/marketing-app/_next/static/media/thermador-inverted.ab5cfd8d.svg
+    background: '#AAAAAA'
+  -
+    category: Appliances
+    name: Broan
+    website: https://broan-nutone.com/en-us
+    logo_url: https://broan-nutone.com/getmedia/042a88e2-e7de-4c32-9725-72a3ada05a5d/broan-nutone.png?width=362&height=180&ext=.png
+  -
+    category: Appliances
+    name: Insinkerator
+    website: https://www.insinkerator.com/en-us
+    logo_url: https://www.insinkerator.com/resource/blob/insinkerator-data-23372.png
+  -
+    category: Appliances
+    name: U-Line
+    website: https://www.u-line.com/
+    logo_url: https://www.u-line.com/media/logo/stores/3/U-Line_Logo_Web_Sable.png
+  -
+    category: Appliances
+    name: Dacor
+    website: https://www.dacor.com/us/
+    logo_url: https://cdn.avbportal.com/magento-media/brands-logos-large/dacor.png?w=300
+  -
+    category: Appliances
+    name: Jenn-Air
+    website: https://www.jennair.com/ranges.html
+    logo_url: https://upload.wikimedia.org/wikipedia/commons/7/7f/JennAir-Brand-Logo-2018.png
+  -
+    category: Appliances
+    name: Venmar
+    website: https://broan-nutone.com/en-us
+    logo_url: https://broan-nutone.com/getmedia/042a88e2-e7de-4c32-9725-72a3ada05a5d/broan-nutone.png?width=362&height=180&ext=.png
+  -
+    category: Appliances
+    name: Danby
+    website: https://www.danby.com/en-us/
+    logo_url: https://cdnweb.danby.com/wp-content/uploads/sites/3/2023/02/07164352/WebsiteLogo.png
+  -
+    category: Appliances
+    name: Marvel
+    website: https://www.marvelrefrigeration.com/
+    logo_url: https://www.marvelrefrigeration.com/pub/media/logo/stores/2/header_new_logo_2.png
+    background: '#AAAAAA'
+  -
+    category: Appliances
+    name: Viking
+    website: https://vikingrange.com/
+    logo_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZSfongjR3ubtDcvZ9PZl9yz35V_B-2Q1OMt6JZFuDlkmAcAZ9yYkIZi4&s=10
+  -
+    category: Appliances
+    name: DCS
+    website: https://www.dcsappliances.com/us/
+    logo_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF21qFKc2YDm36AjpOl6oID5X12B559BuICfst2Pk36Zt4nH0cCs6urgo&s=10
+  -
+    category: Appliances
+    name: Miele
+    website: https://www.miele.com/en/com/index.htm
+    logo_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Miele_Logo_M_Red_sRGB.svg/1920px-Miele_Logo_M_Red_sRGB.svg.png
+  -
+    category: Appliances
+    name: Wolf
+    website: https://www.wolfappliance.com/
+    logo_url: https://upload.wikimedia.org/wikipedia/commons/a/ad/Wolf_%28logo%29.svg
+  -
+    category: Appliances
+    name: GE
+    website: https://www.geappliances.com/
+    logo_url: https://iprsoftwaremedia.com/112/files/201511/56657cc65e8eef34bab82326_GELogo_Blue_CMYK/GELogo_Blue_CMYK_08b35dd1-9467-481d-9bf9-d0045a322953-prv.jpg
+  -
+    category: Appliances
+    name: Amana
+    website: https://www.amana.com/
+    logo_url: https://www.amana.com/content/dam/global/amana/icons/Amana_Logo.svg
+  -
+    category: Cabinets
+    name: American Woodmark Corporation
+    website: https://www.americanwoodmark.com
+    logo_url: https://upload.wikimedia.org/wikipedia/en/a/ac/American_Woodmark_Logo.gif
+  -
+    category: Cabinets
+    name: Armstrong Cabinet Products
+    website: https://www.armstrong.com
+    logo_url: https://upload.wikimedia.org/wikipedia/commons/0/07/ArmstrongWorldIndustries.png
+  -
+    category: Cabinets
+    name: Bass Cabinet Mfg., Inc.
+    website: https://www.BassCabinet.com
+    logo_url: https://basscabinet.com/wp-content/uploads/2018/06/bass-logo_white_no-tagline_200x102.png
+    background: '#AAAAAA'
+  -
+    category: Cabinets
+    name: Evans Cabinet Corp.
+    website: https://www.evanscabinet.com
+    logo_url: https://nebula.wsimg.com/563eaf376284b650c5805af5098f2cb6?AccessKeyId=507AFAA0B84423F35615&disposition=0&alloworigin=1
+  -
+    category: Cabinets
+    name: CornerStone Cabinetry
+    website: https://cornerstonecabco.com/
+    logo_url: https://cornerstonecabco.com/wp-content/uploads/2017/02/hdr-back-2017.png
+  -
+    category: Cabinets
+    name: Custom Wood Products, LLC
+    website: https://customwoodjacksonville.com/
+    logo_url: https://customwoodjacksonville.com/wp-content/uploads/2018/03/Custom-Wood-Products-Logo-Web-Office-768x479.png
+  -
+    category: Cabinets
+    name: KraftMaid
+    website: https://www.kraftmaid.com/
+    logo_url: https://cdn11.bigcommerce.com/s-r7ihvq/stencil/49e9e420-c020-013f-675b-66a980bd0443/e/df09b9d0-c590-013f-e7d8-3a104798cb17/img/custom/logo-white.svg
+    background: '#AAAAAA'
+  -
+    category: Cabinets
+    name: 'Fertig''s Highland Collection, Inc.'
+    website: https://www.fertigcabinet.com
+    logo_url: https://irp.cdn-website.com/52822d30/dms3rep/multi/opt/Untitled+design+%283%29-4fd750d9-1920w.png
+  -
+    category: Cabinets
+    name: Marsh Furniture Company
+    website: https://www.marshcabinets.com/
+    logo_url: https://nextdaycabinets.com/wp-content/uploads/2023/11/marsh.svg
+  -
+    category: Cabinets
+    name: Thomasville Cabinetry
+    website: https://www.thomasvillecabinetry.com/
+    logo_url: https://www.thomasvillecabinetry.com/file/media/thomasville/tvl_cab_black_new.jpg
+  -
+    category: Lighting
+    name: American Lighting
+    website: https://www.americanlighting.com/
+    logo_url: https://americanlighting.com/media/logo/stores/1/AML_update-logo.png
+  -
+    category: Lighting
+    name: Kichler
+    website: https://www.kichler.com
+    logo_url: https://www.kichler.com/_next/static/media/kichlerLogo.3800d964.svg
+  -
+    category: Lighting
+    name: Hunter Fans
+    website: https://www.hunterfan.com/index2.php
+    logo_url: https://www.hunterfan.com/cdn/shop/files/Hunter_140_Web_Logo_png_135x45.png?v=1767359713
+  -
+    category: Lighting
+    name: Broan
+    website: https://www.broan-nutone.com/
+    logo_url: https://broan-nutone.com/getmedia/042a88e2-e7de-4c32-9725-72a3ada05a5d/broan-nutone.png?width=362&height=180&ext=.png
+  -
+    category: Lighting
+    name: Lightolier
+    website: https://www.lightolier.com
+    logo_url: https://www.assets.signify.com/is/image/Signify/SIG_END_LIGHTOLIER_RGB?wid=110&hei=110&fit=constrain&$pngsmall$
+  -
+    category: Lighting
+    name: Progress Lighting
+    website: https://www.progresslighting.com/
+    logo_url: https://progresslighting.com/cdn/shop/files/pl-logo-download.png?v=1734968970&width=1200
+  -
+    category: Lighting
+    name: Ledalite – Sonata
+    website: https://www.ledalite.com/
+    logo_url: https://www.assets.signify.com/is/image/Signify/SIG_END_LEDALITE_UPD_RGB?wid=110&hei=110&fit=constrain&$pngsmall$
+  -
+    category: Lighting
+    name: Juno Lighting
+    website: https://www.junolighting.com
+    logo_url: https://juno.acuitybrands.com/-/media/abl/juno/images/logo-juno-rev.png?h=60&w=153&la=en&hash=DB369460151067EE87AA9FB32151FB0F
+  -
+    category: Lighting
+    name: Framburg Lighting
+    website: https://www.framburg.com
+    logo_url: https://www.framburg.com/wp-content/uploads/2023/12/Framburg-Website-Logo.png
+  -
+    category: Lighting
+    name: Task Lighting Corporation
+    website: https://www.tasklighting.com
+    logo_url: https://pbs.twimg.com/profile_images/1532392978710265857/m0Wf1yVs_400x400.jpg
+  -
+    category: Sinks & Faucets
+    name: Kohler
+    website: https://www.us.kohler.com/
+    logo_url: https://upload.wikimedia.org/wikipedia/commons/4/4a/Kohler_logo.svg
+  -
+    category: Sinks & Faucets
+    name: Grohe
+    website: https://www.grohe.us/
+    logo_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Grohe.svg/1280px-Grohe.svg.png
+  -
+    category: Sinks & Faucets
+    name: American Standard
+    website: https://www.americanstandard-us.com/
+    logo_url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/American_Standard_Companies_logo.svg/1920px-American_Standard_Companies_logo.svg.png
+  -
+    category: Sinks & Faucets
+    name: Blanco
+    website: https://www.blancoamerica.com/
+    logo_url: https://www.blanco.com/us/_nuxt/logo-white.186..svg
+    background: '#AAAAAA'
+  -
+    category: Sinks & Faucets
+    name: Delta
+    website: https://www.deltafaucets.com
+    logo_url: https://www.deltafaucet.com/themes/custom/delta_theme/logo.svg
+  -
+    category: Sinks & Faucets
+    name: Price Pfister
+    website: https://www.pricepfister.com
+    logo_url: https://images.pfisterfaucets.com/is/image/Pfister/pfister%2Dlogo%2Dnew?qlt=100&fmt=png-alpha
+  -
+    category: Sinks & Faucets
+    name: Newport
+    website: https://www.newportbrass.com/
+    logo_url: https://www.newportbrass.com/media/j4uij2y4/primary-logo.png
+  -
+    category: Sinks & Faucets
+    name: Elkay
+    website: https://www.elkay.com/
+    logo_url: https://www.elkay.com/content/experience-fragments/elkayv2/us/en/site/header-ef/header-authentication/_jcr_content/root/lkcontainer_15189191/image.coreimg.svg/1783029902514/elkay-logo-navy-opt.svg
+  -
+    category: Sinks & Faucets
+    name: Herbeau
+    website: https://www.herbeau.com
+    logo_url: https://osuny-1b4da.kxcdn.com/70uxz9dtndxmi47b87h9j8ku0w84?width=1280&height=720&fit=inside&quality=80
+  -
+    category: Sinks & Faucets
+    name: Hansgrohe
+    website: https://www.hansgrohe.com
+    logo_url: https://www.hansgrohe.com/medias/Hansgrohe-Logo-2.svg?context=bWFzdGVyfGltYWdlc3wyNjI2fGltYWdlL3N2Zyt4bWx8YVcxaFoyVnpMMmd4Wmk5b05EY3ZPVEE1TnpneU1ETTNNekF5TWk1emRtY3xhMDlkZDY4OTVmYWVkYTEwMjNmMjUyMjQ1MmVhMmFhZGIxN2I3NGUwMjFkZGMxZTM2MTZhZTk0MTExNjVmYTBl
+  -
+    category: Sinks & Faucets
+    name: Moen
+    website: https://www.moen.com/
+    logo_url: https://www.moen.com/cdn/shop/files/logo-moen-deep-blue.svg?format=webp&v=1781135167&width=130
+  -
+    category: Countertops & Tile
+    name: Formica
+    website: https://www.formica.com
+    logo_url: data:image/svg+xml,%3csvg%20width='46'%20height='24'%20viewBox='0%200%2046%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M0%200V0.799999C3.8%200.799999%206.9%205.7%206.9%2011.8C6.9%2017.9%203.8%2022.8%200%2022.8V23.6H22.6V23C15%2022.1%209.5%2018.6%209.5%2011.9C9.5%205.2%2017.5%201.5%2027.4%201.5C37.3%201.5%2042.1%203.5%2044.4%208.2H45V0.200001H0V0Z'%20fill='red'/%3e%3cpath%20d='M44.1984%2010.6996C44.1984%2010.6996%2044.1984%2010.6996%2043.9984%2010.6996H43.7984V10.2996H43.9984C44.0984%2010.2996%2044.1984%2010.2996%2044.1984%2010.2996C44.1984%2010.2996%2044.1984%2010.2996%2044.1984%2010.4996C44.1984%2010.6996%2044.1984%2010.5996%2044.0984%2010.6996H44.1984ZM44.4984%2011.1996C44.4984%2011.0996%2044.4984%2010.9996%2044.4984%2010.9996C44.4984%2010.9996%2044.3984%2010.9996%2044.2984%2010.8996C44.2984%2010.8996%2044.3984%2010.8996%2044.4984%2010.8996C44.4984%2010.8996%2044.5984%2010.7996%2044.5984%2010.6996C44.5984%2010.5996%2044.5984%2010.4996%2044.3984%2010.3996C44.3984%2010.3996%2044.1984%2010.3996%2044.0984%2010.3996H43.6984V11.4996H43.8984V11.0996H43.9984H44.1984C44.1984%2011.0996%2044.2984%2011.1996%2044.2984%2011.2996V11.3996H44.4984V11.1996ZM44.6984%2011.2996C44.4984%2011.4996%2044.2984%2011.4996%2044.0984%2011.4996C43.8984%2011.4996%2043.6984%2011.4996%2043.4984%2011.2996C43.2984%2011.0996%2043.2984%2010.8996%2043.2984%2010.6996C43.2984%2010.4996%2043.2984%2010.2996%2043.4984%2010.0996C43.6984%209.89961%2043.8984%209.89961%2044.0984%209.89961C44.2984%209.89961%2044.4984%209.89961%2044.6984%2010.0996C44.8984%2010.2996%2044.8984%2010.4996%2044.8984%2010.6996C44.8984%2010.8996%2044.8984%2011.0996%2044.6984%2011.2996ZM44.7984%2010.0996C44.5984%209.89961%2044.3984%209.79961%2044.0984%209.79961C43.7984%209.79961%2043.5984%209.79961%2043.3984%2010.0996C43.1984%2010.2996%2043.0984%2010.4996%2043.0984%2010.7996C43.0984%2011.0996%2043.0984%2011.2996%2043.3984%2011.4996C43.5984%2011.6996%2043.7984%2011.7996%2044.0984%2011.7996C44.3984%2011.7996%2044.5984%2011.7996%2044.7984%2011.4996C44.9984%2011.2996%2045.0984%2011.0996%2045.0984%2010.7996C45.0984%2010.4996%2045.0984%2010.2996%2044.7984%2010.0996ZM40.5984%2012.1996L41.1984%2010.6996L41.7984%2012.1996H40.5984ZM40.5984%209.69961L38.7984%2013.7996H39.9984L40.2984%2012.9996H42.0984L42.3984%2013.7996H43.5984L41.7984%209.69961H40.4984H40.5984ZM23.6984%2011.3996H21.8984V10.5996H23.6984C23.8984%2010.5996%2024.0984%2010.7996%2024.0984%2010.9996C24.0984%2011.1996%2023.8984%2011.3996%2023.6984%2011.3996ZM25.2984%2010.8996C25.2984%2010.1996%2024.6984%209.69961%2023.9984%209.69961H20.7984V13.7996H21.8984V12.2996H22.8984L23.9984%2013.7996H25.3984L24.1984%2012.1996C24.7984%2012.0996%2025.1984%2011.5996%2025.1984%2010.9996L25.2984%2010.8996ZM17.7984%2012.9996C16.9984%2012.9996%2016.5984%2012.3996%2016.5984%2011.6996C16.5984%2010.9996%2016.9984%2010.3996%2017.7984%2010.3996C18.5984%2010.3996%2018.9984%2010.9996%2018.9984%2011.6996C18.9984%2012.3996%2018.5984%2012.9996%2017.7984%2012.9996ZM17.7984%209.59961C16.3984%209.59961%2015.2984%2010.0996%2015.2984%2011.6996C15.2984%2013.2996%2016.2984%2013.7996%2017.7984%2013.7996C19.2984%2013.7996%2020.2984%2013.0996%2020.2984%2011.6996C20.2984%2010.2996%2019.2984%209.59961%2017.7984%209.59961ZM37.5984%2012.0996C37.5984%2012.4996%2037.1984%2012.9996%2036.3984%2012.9996C35.5984%2012.9996%2035.1984%2012.3996%2035.1984%2011.6996C35.1984%2010.9996%2035.5984%2010.3996%2036.3984%2010.3996C37.3984%2010.3996%2037.4984%2011.1996%2037.4984%2011.1996L38.6984%2010.7996C38.4984%2010.0996%2037.6984%209.59961%2036.3984%209.59961C34.9984%209.59961%2033.8984%2010.0996%2033.8984%2011.6996C33.8984%2013.2996%2034.8984%2013.7996%2036.3984%2013.7996C37.6984%2013.7996%2038.5984%2013.2996%2038.7984%2012.3996L37.4984%2012.0996H37.5984ZM28.5984%2011.9996L27.6984%209.69961H25.9984V13.7996H27.0984V10.6996L28.2984%2013.7996H28.9984L30.1984%2010.6996V13.7996H31.2984V9.69961H29.5984L28.6984%2011.9996H28.5984ZM32.1984%2013.7996H33.2984V9.69961H32.1984V13.7996ZM10.9984%2013.7996H12.0984V12.2996H14.4984V11.3996H12.0984V10.5996H14.8984V9.69961H10.8984V13.7996H10.9984Z'%20fill='black'/%3e%3c/svg%3e
+  -
+    category: Countertops & Tile
+    name: Nevamar
+    website: https://panolam.com/nevamar/
+    logo_url: https://panolam.com/wp-content/uploads/2022/09/Nevarmar-logo.png
+  -
+    category: Countertops & Tile
+    name: Pionite
+    website: https://panolam.com/pionite/
+    logo_url: https://panolam.com/wp-content/uploads/2022/09/Poinite-logo.png
+  -
+    category: Countertops & Tile
+    name: Wilsonart
+    website: https://www.wilsonart.com/
+    logo_url: https://images.wilsonart.com/media/logo/stores/1/Wilsonart_ES-01.png
+  -
+    category: Countertops & Tile
+    name: Silestone
+    website: https://www.silestone.com/index.php
+    logo_url: https://www.cosentino.com/wp-content/uploads/2021/05/SILESTONE-LOGO-2021-scaled-1-722x406.jpg
+  -
+    category: Countertops & Tile
+    name: Corian Quartz (DuPont Zodiaq)
+    website: https://www.dupont.com/zodiaq/a/en/h/Home/index.html
+    logo_url: https://www.corian.com/content/dam/corianweb/Corian_logo.png
+  -
+    category: Countertops & Tile
+    name: Green Mountain Soapstone
+    website: https://gmssoapstone.com/
+    logo_url: https://isteam.wsimg.com/ip/1427597d-b044-4b20-ba4f-fc286c858363/GM%20logo%20MASTER.jpg/:/rs=w:1280,h:282
+  -
+    category: Countertops & Tile
+    name: Burlington Stone
+    website: https://burlingtonstone.co.uk/
+    logo_url: https://burlingtonstone.co.uk/wp-content/uploads/BS-logo.svg
+    background: '#AAAAAA'
+  -
+    category: Countertops & Tile
+    name: Cool Concrete Solutions
+    website: https://www.coolconcretecreations.com/
+    logo_url: https://www.coolconcretecreations.com/wp-content/uploads/CCC_Logo_trans_white_llc_422x160.png
+  -
+    category: Countertops & Tile
+    name: Cheng Design
+    website: https://www.chengdesign.com/
+    logo_url: https://www.chengdesign.com/wp-content/uploads/2015/03/CD_2014_WEBSITE_LOGO_F_small.jpg
+  -
+    category: Countertops & Tile
+    name: Dremcoat Flooring
+    website: https://www.dreamcoatflooring.com/stainedconcrete-phoenix-az/
+    logo_url: https://dreamcoatflooring.com/wp-content/uploads/2026/06/Dream-Coat-Logo-225x107.png
+  -
+    category: Countertops & Tile
+    name: Daltile
+    website: https://www.americanolean.com/
+    logo_url: https://www.americanolean.com/-/media/Project/DalTile-Sites/AmericanOlean/Common/Header/AOLogo_header.png
+  -
+    category: Countertops & Tile
+    name: Congoleum
+    website: https://www.congoleum.com/
+    logo_url: https://hilltoplbr.com/wp-content/uploads/2023/09/Congoleum.jpg
+  -
+    category: Countertops & Tile
+    name: Epro
+    website: https://eprotile.com/
+    logo_url: https://eprotile.com/wp-content/uploads/2016/04/epro-logo.png
+  -
+    category: Countertops & Tile
+    name: Florida Tile
+    website: https://www.floridatile.com/
+    logo_url: https://florida-tile-assets-cal44.sevalla.storage/core/images/Florida-Tile-logo.png
+  -
+    category: Countertops & Tile
+    name: Dordini Italian Tile
+    website: https://www.tilesdordini.com/
+    logo_url: https://www.tilesdordini.com/Frontend/images/logo.png
+  -
+    category: Lighting
+    name: Hinkley
+    website: https://www.hinkley.com/
+    logo_url: https://www.hinkley.com/Hinkley-logo-g83.svg
+  -
+    category: Cabinets
+    name: Merillat
+    website: https://www.merillat.com/
+    logo_url: https://www.merillat.com/wp-content/themes/merillat-phire/images/logo_merillat.svg
+  -
+    category: Cabinets
+    name: Shenandoah
+    website: https://shenandoahcabinetry.com/
+    logo_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2uYYhhNu4Jx8mZCEikUsqTUHFOhaa5l-HzYsJH7jWQw&s=10

@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="text-center my-1">Products</h1>
+    <div class="container py-4">
+
+        <form class="my-1">
+        <label for="category" class="form-label">Category</label>
+        <select name="category" id="category" class="form-control" onchange="this.form.submit()">
+        <option value="">All</option>
+            {% for c in categories %}
+            <option value="{{c.name}}" {% if c.name == category %}selected{% endif %}>{{c.name}}</option>
+            {% endfor %}
+        </select>
+        <label for="manufacturer" class="form-label">Manufacturer</label>
+        <select name="manufacturer" id="manufacturer" class="form-control" onchange="this.form.submit()">
+        <option value="">All</option>
+            {% for m in manufacturers %}
+            <option value="{{m.name}}" {% if m.name == manufacturer %}selected{% endif %}>{{m.name}}</option>
+            {% endfor %}
+        </select>
+        <label for="location" class="form-label">Location</label>
+        <select name="location" id="location" class="form-control" onchange="this.form.submit()">
+        <option value="">All</option>
+            {% for l in locations %}
+            <option value="{{l.LocationID}}" {% if l.LocationID == location %}selected{% endif %}>{{l.LocationName}}</option>
+            {% endfor %}
+        </select>
+        <label for="stock" class="form-label">Show Only In Stock</label>
+        <input type="checkbox" id="stock" name="stock" onchange="this.form.submit()" {% if stock == 'on' %}checked{% endif %}>
+        </form>
+
+        <div class="row row-cols-1 md:row-cols-2 lg:row-cols-3 xl:row-cols-4 g-4">
+
+        {% for product in products %}
+            <div class="col">
+              <div class="card h-100">
+                <img src="{{product.manufacturer.logo_url}}" class="card-img-top object-fit-contain" height="200px" {% if product.manufacturer.background %}style="background-color: {{product.manufacturer.background}};" {% endif %}>
+                <div class="card-body">
+                  <h5 class="card-title">{{product.ProductDescription}}</h5>
+                  <p class="card-text">{{product.Brand}} {{product.ModelNumber}}</p>
+                </div>
+                <div class="card-footer">
+                    <div class="d-flex justify-content-between">
+                        <small class="text-body-secondary">{{ "${:,.2f}".format(product.ListPrice) }}</small>
+                            {% if product.stock %}
+                            <span class="badge bg-success">In Stock</span>
+                            {% else %}
+                            <span class="badge bg-danger">Out of Stock</span>
+                            {% endif %}
+                    </div>
+                </div>
+              </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

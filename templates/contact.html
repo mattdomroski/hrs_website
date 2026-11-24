@@ -1,5 +1,25 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Welcome to the contact page</h1>
+<h1 class="text-center my-1">Contact Us</h1>
+
+<div class="container">
+<form method="POST">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" name="name" id="name" class="form-control" required>
+    <label for="email" class="form-label">Email</label>
+    <input type="email" name="email" id="email" class="form-control" required>
+    <label for="type" class="form-label">Type</label>
+    <select name="type" id="type" class="form-control">
+        <option value="product_inquiry">Product Inquiry</option>
+        <option value="service_quote">Service Quote</option>
+        <option value="design_consultation">Design Consultation</option>
+        <option value="other">Other</option>
+    </select>
+    <label for="message" class="form-label">Message</label>
+    <textarea name="message" id="message" class="form-control" required rows="10"></textarea>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
 {% endblock %}

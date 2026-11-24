@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="text-center my-1">Manufacturers</h1>
+    <div class="container py-4">
+    <div class="row row-cols-1 md:row-cols-2 lg:row-cols-3 xl:row-cols-4 g-4">
+
+    {% for manufacturer in manufacturers %}
+        <div class="col">
+          <div class="card h-100">
+            <img src="{{manufacturer.logo_url}}" class="card-img-top object-fit-contain" height="200px" {% if manufacturer.background %}style="background-color: {{manufacturer.background}};" {% endif %} >
+            <div class="card-body">
+              <h5 class="card-title">{{manufacturer.name}}</h5>
+              <p class="card-text">{{manufacturer.category}}</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="{{url_for('list_products', manufacturer=manufacturer.name)}}">View Products</a> | <a href="{{manufacturer.website}}" >Manufacturer Website</a></small>
+            </div>
+          </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>
+{% endblock %}

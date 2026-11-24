@@ -1,5 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Welcome to the home page</h1>
+
+
+<div class="w-100 vh-100 d-flex justify-content-center align-items-center text-white text-center"
+   style="background-image: url('https://images.unsplash.com/photo-1602028915047-37269d1a73f7'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<div class="container">
+  <h1 class="display-4 fw-bold">Home Renovation Solutions</h1>
+  <p class="lead">Kitchen and bathroom remodeling experts</p>
+  <a href="{{url_for('about')}}" class="btn btn-primary btn-lg">About</a>
+  <a href="{{url_for('contact')}}" class="btn btn-primary btn-lg">Contact</a>
+</div>
+</div>
 {% endblock %}

@@ -1,26 +1,13 @@
+from dotenv import load_dotenv
 import os
 
-from dotenv import find_dotenv, dotenv_values
-
-
-try:
-    dotenv_path = find_dotenv(raise_error_if_not_found=True)
-except OSError:
-    raise FileNotFoundError('No .env file found')
-
-env = dotenv_values()
-
-def get_env_value(key):
-    try:
-        return env[key]
-    except KeyError:
-        raise KeyError(f'Undefined environment variable "{key}". Define it in {dotenv_path}')
+load_dotenv()
 
 #Load all environment variables here so any missing variables are caught at startup.
-DB_HOST = get_env_value('DB_HOST')
-DB_USER = get_env_value('DB_USER')
-DB_PASSWORD = get_env_value('DB_PASSWORD')
-DB_NAME = get_env_value('DB_NAME')
-DB_PORT = int(get_env_value('DB_PORT'))
-GOOGLE_MAPS_API_KEY = get_env_value('GOOGLE_MAPS_API_KEY')
-STAFF_PORTAL_URL = get_env_value('STAFF_PORTAL_URL')
+DB_HOST = os.getenv('DB_HOST')
+DB_USER = os.getenv('DB_USER')
+DB_PASSWORD = os.getenv('DB_PASSWORD')
+DB_NAME = os.getenv('DB_NAME')
+DB_PORT = int(os.getenv('DB_PORT'))
+GOOGLE_MAPS_API_KEY = os.getenv('GOOGLE_MAPS_API_KEY')
+STAFF_PORTAL_URL = os.getenv('STAFF_PORTAL_URL')
